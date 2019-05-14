@@ -7,27 +7,27 @@ const pinkBlock = document.querySelector("body > div > div.block.block--pink")
 const grayBlock = document.querySelector("body > div > div.block.block--gray")
 
 
-redBlock.addEventListener('click', event =>{
+redBlock.addEventListener('mousedown', event =>{
 blocks.removeChild(redBlock);
 blocks.prepend(redBlock);
 })
 
-blueBlock.addEventListener('click', event =>{
+blueBlock.addEventListener('mousedown', event =>{
 blocks.removeChild(blueBlock);
 blocks.prepend(blueBlock);
 })
 
-greenBlock.addEventListener('click', event =>{
+greenBlock.addEventListener('mousedown', event =>{
 blocks.removeChild(greenBlock);
 blocks.prepend(greenBlock);
 })
 
-pinkBlock.addEventListener('click', event =>{
+pinkBlock.addEventListener('mousedown', event =>{
 blocks.removeChild(pinkBlock);
 blocks.prepend(pinkBlock);
 })
 
-grayBlock.addEventListener('click', event =>{
+grayBlock.addEventListener('mousedown', event =>{
 blocks.removeChild(grayBlock);
 blocks.prepend(grayBlock);
 })
