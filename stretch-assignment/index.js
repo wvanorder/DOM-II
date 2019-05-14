@@ -87,8 +87,13 @@ grayBlock.addEventListener('mouseup', event =>{
 
 const abortMission = document.querySelector("body > button")
 
-abortMission.addEventListener('click', event => {
+const warning = function() {
     
+    alert(`5 seconds left!`);
+}
+
+abortMission.addEventListener('click', event => {
+    setTimeout(warning, 5000);
     window.setInterval('location.reload()', 10000);
 
 })
