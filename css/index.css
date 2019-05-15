@@ -350,3 +350,47 @@ img {
   background: #FFFFFF;
   color: #17A2B8;
 }
+.home .content-pick .destination .bigBtn {
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 70px;
+  background-color: #17A2B8;
+  color: #FFFFFF;
+  border: 1px solid #C0C0C0;
+  cursor: pointer;
+  font-size: 2rem;
+}
+@media (max-width: 500px) {
+  .home .content-pick .destination .bigBtn {
+    width: 100%;
+  }
+}
+.home .content-pick .destination .bigBtn:hover {
+  background: #FFFFFF;
+  color: #17A2B8;
+}
+.fadeback {
+  animation-duration: 0.8s;
+  background-color: bisque;
+}
+.onload {
+  background-color: aliceblue;
+}
+.greenmode {
+  background-color: darkolivegreen;
+  color: lightyellow;
+}
+.greenmode p {
+  color: lightyellow;
+}
+.greenmode a:hover {
+  color: lightyellow;
+}
+.whencopied {
+  display: none;
+}
